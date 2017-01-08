@@ -1,8 +1,19 @@
-baseurl = "http://hugo.spf13.com/"
-title = "Hugo Themes"
-author = "Steve Francia"
-copyright = "Copyright (c) 2008 - 2014, Steve Francia; all rights reserved."
-canonifyurls = true
-paginate = 3
+name = "Startbootstrap Clean Blog"
+license = "Apache 2.0"
+licenselink = "https://github.com/garrettmac/hugo_gh_blog/blob/master/LICENSE.md"
+description = "Startbootstrap Clean Blog"
+homepage = "https://github.com/garrettmac/hugo_gh_blog"
+baseURL = "https://github.com/garrettmac/hugo_gh_blog"
+tags = ["blog", "bootstrap"]
+features = ["blog", "bootstrap"]
+min_version = 0.17
 
+[author]
+  name = "Benoît Benedetti"
+  homepage = "http://www.garrettmac.com"
 
+# original theme
+[original]
+  name = "Startbootstrap Clean Blog"
+  homepage = "http://startbootstrap.com/template-overviews/clean-blog/"
+  repo = "https://github.com/IronSummitMedia/hugo_gh_blog"
